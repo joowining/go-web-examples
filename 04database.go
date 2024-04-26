@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-	db, err := sql.Open("mysql", "root:korean2078@(127.0.0.1:3306)/web_ide?parseTime=true")
+	db, err := sql.Open("mysql", "root:########@(127.0.0.1:3306)/web_ide?parseTime=true")
 	if err != nil {
 		log.Fatalln(err)
 	}
